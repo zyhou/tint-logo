@@ -5,3 +5,22 @@
   align-items: center;
   justify-content: center;
 }
+
+@keyframes pulse {
+  0% {
+    stroke: #42ffff;
+    opacity: 0.8;
+  }
+  50% {
+    stroke: #42ffff;
+    opacity: 1;
+  }
+  100% {
+    stroke: #42ffff;
+    opacity: 0.8;
+  }
+}
+
+.neon {
+  animation: pulse 2s infinite;
+}

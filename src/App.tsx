@@ -18,19 +18,12 @@ export function Logo(): React.ReactElement {
         fill="white"
       />
       <circle r="5" fill="#42FFFF">
-        <animate
-          attributeName="fill"
-          values="#4553C7;#42FFFF;#4553C7"
-          dur="10s"
-          repeatCount="indefinite"
-        />
-        <animate
-          attributeName="r"
-          values="5;7;5"
-          dur="10s"
-          repeatCount="indefinite"
-        />
         <animateMotion dur="20s" repeatCount="indefinite">
+          <mpath xlinkHref="#wire"></mpath>
+        </animateMotion>
+      </circle>
+      <circle r="5" fill="#42FFFF">
+        <animateMotion dur="20s" repeatCount="indefinite" begin="3s">
           <mpath xlinkHref="#wire"></mpath>
         </animateMotion>
       </circle>
@@ -42,19 +35,12 @@ export function Logo(): React.ReactElement {
         fill="white"
       />
       <circle r="5" fill="#42FFFF">
-        <animate
-          attributeName="fill"
-          values="#4553C7;#42FFFF;#4553C7"
-          dur="10s"
-          repeatCount="indefinite"
-        />
-        <animate
-          attributeName="r"
-          values="5;7;5"
-          dur="10s"
-          repeatCount="indefinite"
-        />
         <animateMotion dur="15s" repeatCount="indefinite">
+          <mpath xlinkHref="#wire1"></mpath>
+        </animateMotion>
+      </circle>
+      <circle r="5" fill="#42FFFF">
+        <animateMotion dur="15s" repeatCount="indefinite" begin="3s">
           <mpath xlinkHref="#wire1"></mpath>
         </animateMotion>
       </circle>
@@ -66,19 +52,12 @@ export function Logo(): React.ReactElement {
         fill="white"
       />
       <circle r="5" fill="#42FFFF">
-        <animate
-          attributeName="fill"
-          values="#4553C7;#42FFFF;#4553C7"
-          dur="10s"
-          repeatCount="indefinite"
-        />
-        <animate
-          attributeName="r"
-          values="5;7;5"
-          dur="10s"
-          repeatCount="indefinite"
-        />
         <animateMotion dur="25s" repeatCount="indefinite">
+          <mpath xlinkHref="#wire2"></mpath>
+        </animateMotion>
+      </circle>
+      <circle r="5" fill="#42FFFF">
+        <animateMotion dur="25s" repeatCount="indefinite" begin="3s">
           <mpath xlinkHref="#wire2"></mpath>
         </animateMotion>
       </circle>
@@ -2751,6 +2730,7 @@ export function Logo(): React.ReactElement {
         clip-rule="evenodd"
         d="M191.319 305.808L215.543 306.375L249.263 287.655C250.248 287.108 251.948 287.208 253.061 287.878L286.56 308.038L310.05 308.587L309.801 322.882L309.786 322.89C309.728 323.191 309.515 323.47 309.131 323.683L251.604 355.621C250.62 356.169 248.919 356.068 247.806 355.397L191.971 321.796C191.462 321.49 191.175 321.119 191.095 320.752L191.058 320.731L191.319 305.808Z"
         fill="#42FFFF"
+        className="neon"
       />
       <mask
         id="mask71"
